@@ -30,6 +30,8 @@ function App() {
     }
   }
 
+
+
   function favoritar(produto: Produto) {
     if (favoritos.find((p) => p.id === produto.id)) {
       const favoritosSemProduto = favoritos.filter((p) => p.id !== produto.id)
